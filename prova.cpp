@@ -9,9 +9,9 @@ int main()
     
     for(i=0;i<5;i++){
         for(j=0;j<2;j++){
-             cout<<"inserisci elemento"<<i<<" e "<<j<<endl;
-             cin >> m1[i][j];
-             if(m1[i][j]==3){cout<<"nella matrice è presente il numero 3 \n";}
+            m1[i][j] = std::rand() % 100 + 1;
+
+             if(m1[i][j]==3){cout<<"il numero 3 si trova "<<i<<" e "<<j<<"\n";}
 
         }}
         cout<<"la matrice è";
